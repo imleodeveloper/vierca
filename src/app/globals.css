@@ -497,7 +497,15 @@ header nav .menu-mobile {
   font-size: 1.2rem;
   color: #022041;
 }
-.page-home main .plans-section article .plans .plan .description div:nth-child(1) span{
+.page-home
+  main
+  .plans-section
+  article
+  .plans
+  .plan
+  .description
+  div:nth-child(1)
+  span {
   color: #022041;
   font-size: 2rem;
   font-weight: 800;
@@ -505,24 +513,65 @@ header nav .menu-mobile {
   text-decoration-color: #1e90ff;
   text-transform: uppercase;
 }
-.page-home main .plans-section article .plans .plan .description div:nth-child(1) p{
+.page-home
+  main
+  .plans-section
+  article
+  .plans
+  .plan
+  .description
+  div:nth-child(1)
+  p {
   color: #022041;
   font-size: 0.85rem;
 }
-.page-home main .plans-section article .plans .plan .description div:nth-child(2) p{
+.page-home
+  main
+  .plans-section
+  article
+  .plans
+  .plan
+  .description
+  div:nth-child(2)
+  p {
   color: #022041;
   font-size: 1.25rem;
 }
-.page-home main .plans-section article .plans .plan .description div:nth-child(2) span{
+.page-home
+  main
+  .plans-section
+  article
+  .plans
+  .plan
+  .description
+  div:nth-child(2)
+  span {
   color: #022041;
   font-size: 0.85rem;
 }
-.page-home main .plans-section article .plans .plan .description div:nth-child(2) p span{
+.page-home
+  main
+  .plans-section
+  article
+  .plans
+  .plan
+  .description
+  div:nth-child(2)
+  p
+  span {
   font-size: 2rem;
   font-weight: 600;
   text-decoration: underline;
 }
-.page-home main .plans-section article .plans .plan .description div:nth-child(3) .links{
+.page-home
+  main
+  .plans-section
+  article
+  .plans
+  .plan
+  .description
+  div:nth-child(3)
+  .links {
   width: 100%;
   height: auto;
   display: flex;
@@ -531,7 +580,16 @@ header nav .menu-mobile {
   flex-direction: row;
   gap: 30px;
 }
-.page-home main .plans-section article .plans .plan .description div:nth-child(3) .links .choose-plan-link{
+.page-home
+  main
+  .plans-section
+  article
+  .plans
+  .plan
+  .description
+  div:nth-child(3)
+  .links
+  .choose-plan-link {
   background: #022041;
   background: linear-gradient(
     90deg,
@@ -549,18 +607,52 @@ header nav .menu-mobile {
   transition: box-shadow 0.5s ease-in-out, color 0.6s ease-in-out,
     transform 0.5s ease-in-out;
 }
-.page-home main .plans-section article .plans .plan .description div:nth-child(3) .choose-plan-link:hover {
+.page-home
+  main
+  .plans-section
+  article
+  .plans
+  .plan
+  .description
+  div:nth-child(3)
+  .choose-plan-link:hover {
   color: #000;
   box-shadow: inset 0 -100px 0px #1e90ff;
   transform: scale(0.9);
 }
-.page-home main .plans-section article .plans .plan .description div:nth-child(3) .links .details-links{
+.page-home
+  main
+  .plans-section
+  article
+  .plans
+  .plan
+  .description
+  div:nth-child(3)
+  .links
+  .details-links {
   color: #1e90ff;
 }
-.page-home main .plans-section article .plans .plan .description div:nth-child(3) .links .details-links:hover{
+.page-home
+  main
+  .plans-section
+  article
+  .plans
+  .plan
+  .description
+  div:nth-child(3)
+  .links
+  .details-links:hover {
   color: #01152b;
 }
-.page-home main .plans-section article .plans .plan .description div:nth-child(3) span {
+.page-home
+  main
+  .plans-section
+  article
+  .plans
+  .plan
+  .description
+  div:nth-child(3)
+  span {
   color: #022041;
   font-size: 0.85rem;
 }
@@ -627,6 +719,7 @@ header nav .menu-mobile {
   background: url("/section-benefits.jpg") no-repeat;
   background-position: center;
   background-attachment: fixed;
+  background-size: cover;
   filter: brightness(30%);
   z-index: -1;
 }
@@ -875,21 +968,22 @@ header nav .menu-mobile {
 /* PAGE HOME */
 
 /* PAGE PRICES */
-.page-prices{
+.page-prices {
   width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.page-prices main{
+.page-prices main {
   width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
-.page-prices main .startPrice-section{
+.page-prices main .startPrice-section {
   width: 100%;
   height: auto;
   display: flex;
@@ -897,14 +991,14 @@ header nav .menu-mobile {
   align-items: center;
   padding: 100px 0px;
 }
-.page-prices main .startPrice-section article{
+.page-prices main .startPrice-section article {
   width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.page-prices main .startPrice-section article section{
+.page-prices main .startPrice-section article section {
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -913,19 +1007,19 @@ header nav .menu-mobile {
   align-items: center;
   gap: 50px;
 }
-.page-prices main .startPrice-section article section .title-section{
+.page-prices main .startPrice-section article section .title-section {
   width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.page-prices main .startPrice-section article section .title-section h1{
+.page-prices main .startPrice-section article section .title-section h1 {
   font-size: 2rem;
-  color: #01152b;
+  color: #022041;
   font-weight: 900;
 }
-.page-prices main .startPrice-section article section .container-section{
+.page-prices main .startPrice-section article section .container-section {
   width: 80%;
   height: auto;
   display: flex;
@@ -933,10 +1027,10 @@ header nav .menu-mobile {
   align-items: center;
   gap: 30px;
 }
-.page-prices main .startPrice-section article section .container-section .item{
+.page-prices main .startPrice-section article section .container-section .item {
   width: 30%;
-  min-width: 300px;
-  height: auto;
+  min-width: 320px;
+  min-height: 500px;
   padding: 20px;
   display: flex;
   justify-content: start;
@@ -946,7 +1040,14 @@ header nav .menu-mobile {
   background: #d7e8fa;
   border-radius: 20px;
 }
-.page-prices main .startPrice-section article section .container-section .item .title{
+.page-prices
+  main
+  .startPrice-section
+  article
+  section
+  .container-section
+  .item
+  .title {
   width: 100%;
   height: auto;
   display: flex;
@@ -954,8 +1055,34 @@ header nav .menu-mobile {
   align-items: start;
   flex-direction: column;
   gap: 25px;
+  position: relative;
 }
-.page-prices main .startPrice-section article section .container-section .item .title span{
+.page-prices
+  main
+  .startPrice-section
+  article
+  section
+  .container-section
+  .item
+  .title::after {
+  width: 100%;
+  height: 1px;
+  content: "";
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: 0 auto;
+  background: #45454548;
+}
+.page-prices
+  main
+  .startPrice-section
+  article
+  section
+  .container-section
+  .item
+  .title
+  span {
   text-transform: uppercase;
   background: #4545453b;
   padding: 10px 20px;
@@ -965,7 +1092,15 @@ header nav .menu-mobile {
   font-weight: bold;
   font-size: 0.9rem;
 }
-.page-prices main .startPrice-section article section .container-section .item .title h2{
+.page-prices
+  main
+  .startPrice-section
+  article
+  section
+  .container-section
+  .item
+  .title
+  h2 {
   color: #01152b;
   font-size: 1.4rem;
   display: flex;
@@ -973,16 +1108,627 @@ header nav .menu-mobile {
   align-items: center;
   gap: 10px;
 }
-.page-prices main .startPrice-section article section .container-section .item .title p{
+.page-prices
+  main
+  .startPrice-section
+  article
+  section
+  .container-section
+  .item
+  .title
+  p {
   font-size: 0.85rem;
   color: #01152b;
 }
+
+.page-prices
+  main
+  .startPrice-section
+  article
+  section
+  .container-section
+  .item
+  .features {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.page-prices
+  main
+  .startPrice-section
+  article
+  section
+  .container-section
+  .item
+  .features
+  .feature {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+}
+.page-prices
+  main
+  .startPrice-section
+  article
+  section
+  .container-section
+  .item
+  .features
+  .feature
+  .text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.page-prices
+  main
+  .startPrice-section
+  article
+  section
+  .container-section
+  .item
+  .features
+  .feature
+  .text
+  p:nth-child(1) {
+  font-size: 0.9rem;
+  color: #000;
+}
+.page-prices
+  main
+  .startPrice-section
+  article
+  section
+  .container-section
+  .item
+  .features
+  .feature
+  .text
+  p:nth-child(2) {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.page-prices
+  main
+  .startPrice-section
+  article
+  section
+  .container-section
+  .item
+  .features
+  .feature
+  .bar {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  height: auto;
+}
+.page-prices
+  main
+  .startPrice-section
+  article
+  section
+  .container-section
+  .item
+  .features
+  .feature
+  .bar
+  span.active {
+  width: 33%;
+  height: 8px;
+  background: #022041;
+}
+.page-prices
+  main
+  .startPrice-section
+  article
+  section
+  .container-section
+  .item
+  .features
+  .feature
+  .bar
+  span.inactive {
+  width: 33%;
+  height: 8px;
+  background: #454545;
+}
+.page-prices
+  main
+  .startPrice-section
+  article
+  section
+  .container-section
+  .item
+  .features
+  .feature
+  .bar
+  span:nth-child(1) {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.page-prices
+  main
+  .startPrice-section
+  article
+  section
+  .container-section
+  .item
+  .features
+  .feature
+  .bar
+  span:nth-child(3) {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.page-prices main .startPrice-section article section .links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-prices main .startPrice-section article section .links .link {
+  background: #022041;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 32, 65, 1) 22%,
+    rgba(51, 111, 171, 1) 100%
+  );
+  font-size: 1rem;
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: box-shadow 0.5s ease-in-out, color 0.6s ease-in-out,
+    transform 0.5s ease-in-out;
+  text-decoration: none;
+}
+.page-prices main .startPrice-section article section .links .link:hover {
+  color: #000;
+  box-shadow: inset 0 -100px 0px #1e90ff;
+  transform: scale(0.9);
+}
+
+.page-prices main .plansPrice-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-prices main .plansPrice-section article {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-prices main .plansPrice-section article section {
+  width: 100%;
+  min-height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-direction: column;
+  padding: 100px 0px;
+}
+.page-prices main .plansPrice-section article section .title-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-prices main .plansPrice-section article section .title-section h2 {
+  color: #022041;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+}
+.page-prices main .plansPrice-section article section .container-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.page-prices main .plansPrice-section article section .container-section .tags {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  gap: 20px;
+}
+
+.page-prices
+  main
+  .plansPrice-section
+  article
+  section
+  .container-section
+  .tags
+  div {
+  background: #022041;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 32, 65, 1) 22%,
+    rgba(51, 111, 171, 1) 100%
+  );
+  font-size: 1rem;
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border: none;
+  cursor: pointer;
+  transition: box-shadow 0.5s ease-in-out, color 0.6s ease-in-out,
+    transform 0.5s ease-in-out;
+  text-decoration: none;
+}
+.page-prices
+  main
+  .plansPrice-section
+  article
+  section
+  .container-section
+  .tags
+  div:hover,
+.page-prices
+  main
+  .plansPrice-section
+  article
+  section
+  .container-section
+  .tags
+  div.active {
+  color: #000;
+  box-shadow: inset 0 -100px 0px #1e90ff;
+  transform: scale(0.9);
+}
+
+.page-prices
+  main
+  .plansPrice-section
+  article
+  section
+  .container-section
+  .categorie {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.page-prices
+  main
+  .plansPrice-section
+  article
+  section
+  .container-section
+  .categorie
+  .plans {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.page-prices
+  main
+  .plansPrice-section
+  article
+  section
+  .container-section
+  .categorie
+  .plans
+  .plan {
+  width: 25%;
+  height: auto;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  position: relative;
+}
+.page-prices
+  main
+  .plansPrice-section
+  article
+  section
+  .container-section
+  .categorie
+  .plans
+  .plan
+  .classification {
+  width: 100%;
+  height: auto;
+  padding: 10px 0px;
+  text-align: center;
+  border-radius: 20px 20px 0px 0px;
+  background: #022041;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  box-shadow: -1px -1px 3px black;
+}
+.page-prices
+  main
+  .plansPrice-section
+  article
+  section
+  .container-section
+  .categorie
+  .plans
+  .plan
+  .description {
+  width: 100%;
+  min-height: 500px;
+  border-radius: 0px 0px 20px 20px;
+  border: 2px solid #022041;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 20px;
+  background: url("/mirrored-squares.png");
+}
+.page-prices
+  main
+  .plansPrice-section
+  article
+  section
+  .container-section
+  .categorie
+  .plans
+  .plan
+  .description
+  div {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  gap: 10px;
+}
+.page-prices
+  main
+  .plansPrice-section
+  article
+  section
+  .container-section
+  .categorie
+  .plans
+  .plan
+  .description
+  div
+  h4 {
+  font-size: 1.2rem;
+  color: #022041;
+}
+.page-prices
+  main
+  .plansPrice-section
+  article
+  section
+  .container-section
+  .categorie
+  .plans
+  .plan
+  .description
+  div:nth-child(1)
+  span {
+  color: #022041;
+  font-size: 2rem;
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-color: #1e90ff;
+  text-transform: uppercase;
+}
+.page-prices
+  main
+  .plansPrice-section
+  article
+  section
+  .container-section
+  .categorie
+  .plans
+  .plan
+  .description
+  div:nth-child(1)
+  p {
+  color: #022041;
+  font-size: 0.85rem;
+}
+.page-prices
+  main
+  .plansPrice-section
+  article
+  section
+  .container-section
+  .categorie
+  .plans
+  .plan
+  .description
+  div:nth-child(2)
+  p {
+  color: #022041;
+  font-size: 1.25rem;
+}
+.page-prices
+  main
+  .plansPrice-section
+  article
+  section
+  .container-section
+  .categorie
+  .plans
+  .plan
+  .description
+  div:nth-child(2)
+  span {
+  color: #022041;
+  font-size: 0.85rem;
+}
+.page-prices
+  main
+  .plansPrice-section
+  article
+  section
+  .container-section
+  .categorie
+  .plans
+  .plan
+  .description
+  div:nth-child(2)
+  p
+  span {
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.page-prices
+  main
+  .plansPrice-section
+  article
+  section
+  .container-section
+  .categorie
+  .plans
+  .plan
+  .description
+  div:nth-child(3)
+  .links {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  gap: 30px;
+}
+.page-prices
+  main
+  .plansPrice-section
+  article
+  section
+  .container-section
+  .categorie
+  .plans
+  .plan
+  .description
+  div:nth-child(3)
+  .links
+  .choose-plan-link {
+  background: #022041;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 32, 65, 1) 22%,
+    rgba(51, 111, 171, 1) 100%
+  );
+  font-size: 1rem;
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: box-shadow 0.5s ease-in-out, color 0.6s ease-in-out,
+    transform 0.5s ease-in-out;
+}
+.page-prices
+  main
+  .plansPrice-section
+  article
+  section
+  .container-section
+  .categorie
+  .plans
+  .plan
+  .description
+  div:nth-child(3)
+  .choose-plan-link:hover {
+  color: #000;
+  box-shadow: inset 0 -100px 0px #1e90ff;
+  transform: scale(0.9);
+}
+.page-prices
+  main
+  .plansPrice-section
+  article
+  section
+  .container-section
+  .categorie
+  .plans
+  .plan
+  .description
+  div:nth-child(3)
+  .links
+  .details-links {
+  color: #1e90ff;
+}
+.page-prices
+  main
+  .plansPrice-section
+  article
+  section
+  .container-section
+  .categorie
+  .plans
+  .plan
+  .description
+  div:nth-child(3)
+  .links
+  .details-links:hover {
+  color: #01152b;
+}
+.page-prices
+  main
+  .plansPrice-section
+  article
+  section
+  .container-section
+  .categorie
+  .plans
+  .plan
+  .description
+  div:nth-child(3)
+  span {
+  color: #022041;
+  font-size: 0.85rem;
+}
 /* PAGE PRICES */
 
-
-
 /* FOOTER */
-footer{
+footer {
   width: 100%;
   min-height: 300px;
   display: flex;
@@ -992,7 +1738,7 @@ footer{
   background: #fff;
   padding: 20px 0px;
 }
- footer .footer-container{
+footer .footer-container {
   width: 80%;
   height: auto;
   display: flex;
@@ -1000,7 +1746,7 @@ footer{
   align-items: start;
   gap: 50px;
 }
- footer .footer-container .footer-column{
+footer .footer-container .footer-column {
   width: 15%;
   min-height: 300px;
   display: flex;
@@ -1009,13 +1755,13 @@ footer{
   flex-direction: column;
   gap: 10px;
 }
- footer .footer-container .footer-column h2{
+footer .footer-container .footer-column h2 {
   color: #022041;
   font-size: 1.3rem;
   font-weight: 900;
   text-transform: uppercase;
 }
- footer .footer-container .footer-column ul{
+footer .footer-container .footer-column ul {
   width: 100%;
   height: auto;
   display: flex;
@@ -1024,17 +1770,17 @@ footer{
   flex-direction: column;
   gap: 8px;
 }
- footer .footer-container .footer-column ul li{
+footer .footer-container .footer-column ul li {
   color: #022041;
   font-size: 1rem;
   list-style: none;
   cursor: pointer;
 }
- footer .footer-container .footer-column ul li:hover{
+footer .footer-container .footer-column ul li:hover {
   color: #1e90ff;
 }
 
- footer .footer-social{
+footer .footer-social {
   width: 80%;
   height: auto;
   display: flex;
@@ -1043,24 +1789,22 @@ footer{
   flex-direction: column;
   gap: 20px;
 }
- footer .footer-social .payments-and-social{
+footer .footer-social .payments-and-social {
   width: 100%;
   height: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
- footer .footer-social .payments-and-social .payments{
+footer .footer-social .payments-and-social .payments {
   width: auto;
   height: auto;
   display: flex;
   justify-content: start;
   align-items: center;
   gap: 20px;
-  
 }
- footer .footer-social .payments-and-social .payments span{
+footer .footer-social .payments-and-social .payments span {
   position: relative;
   width: 70px;
   height: 40px;
@@ -1071,15 +1815,14 @@ footer{
   border: 1px solid #e1e1e1;
   border-radius: 10px;
   overflow: hidden;
-  
 }
- footer .footer-social .payments-and-social .socials{
+footer .footer-social .payments-and-social .socials {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 15px;
 }
- footer .footer-social .payments-and-social .socials li{
+footer .footer-social .payments-and-social .socials li {
   width: 45px;
   height: 45px;
   display: flex;
@@ -1090,7 +1833,7 @@ footer{
   overflow: hidden;
   color: #fff;
 }
- footer .footer-social .payments-and-social .socials li .link{
+footer .footer-social .payments-and-social .socials li .link {
   width: 100%;
   height: 100%;
   display: flex;
@@ -1100,26 +1843,25 @@ footer{
   cursor: pointer;
   transition: box-shadow 0.6s ease-in-out;
 }
- footer .footer-social .payments-and-social .socials li .link:hover{
+footer .footer-social .payments-and-social .socials li .link:hover {
   box-shadow: inset 0 -100px 3px #1e90ff;
 }
 
-
- footer .footer-social .links-and-logo{
+footer .footer-social .links-and-logo {
   width: 100%;
   height: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
- footer .footer-social .links-and-logo .links{
+footer .footer-social .links-and-logo .links {
   width: auto;
   height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
- footer .footer-social .links-and-logo .links ul{
+footer .footer-social .links-and-logo .links ul {
   width: auto;
   height: auto;
   display: flex;
@@ -1127,21 +1869,21 @@ footer{
   align-items: center;
   gap: 15px;
 }
- footer .footer-social .links-and-logo .links ul li{
+footer .footer-social .links-and-logo .links ul li {
   list-style: none;
   color: #01152b;
 }
- footer .footer-social .links-and-logo .links ul li:hover{
+footer .footer-social .links-and-logo .links ul li:hover {
   color: #1e90ff;
 }
- footer .footer-social .links-and-logo .logo{
+footer .footer-social .links-and-logo .logo {
   width: auto;
   height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
- footer .footer-social .links-and-logo .logo div{
+footer .footer-social .links-and-logo .logo div {
   position: relative;
   width: 80px;
   height: 80px;
@@ -1150,7 +1892,7 @@ footer{
   align-items: center;
 }
 
- footer .footer-rights{
+footer .footer-rights {
   width: 80%;
   height: auto;
   display: flex;
