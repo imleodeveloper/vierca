@@ -5,7 +5,6 @@ import {
 } from "@mdi/js";
 import Icon from "@mdi/react";
 import Image from "next/image";
-import imageHome from "/page-home.png";
 
 export function HomePage() {
   return (
@@ -83,7 +82,7 @@ export function HomePage() {
           <div className="img-start">
             <div>
               <Image
-                src={imageHome}
+                src={"/page-home.png"}
                 alt=""
                 title=""
                 fill

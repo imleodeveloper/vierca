@@ -3,6 +3,7 @@ import {
   mdiApplicationSettingsOutline,
   mdiCart,
   mdiDomain,
+  mdiMinusThick,
   mdiRobotHappy,
 } from "@mdi/js";
 import Icon from "@mdi/react";
@@ -17,32 +18,52 @@ export const PlansPrice = () => {
         {
           id: 1,
           classification: "Popular",
-          categorie: "Landing Page",
-          description_1: "Ideal para campanhas",
-          valor: `1.200,00`,
-          description_2: "*Pagamento único.",
+          categorie: "Starter Chatbot",
+          description_1: "Landing Page com chatbot integrado",
+          description_2:
+            "Ideal para apresentar serviços e gerar leads de forma automática, 24h por dia.",
+          description_3:
+            "💡 Indicado para profissionais liberais e negócios locais iniciando na automação.",
+          valor: `1.000,00`,
+          description_4: "*Pagamento único.",
           style_classification: "visible",
           style_description: "0px 0px 20px 20px",
+          list_1: `Página única com design atrativo`,
+          list_2: `Chatbot com liberdade para o atendimento`,
+          list_3: `Integração com WhatsApp ou e-mail`,
         },
         {
           id: 2,
           classification: "Popular",
-          categorie: "Landing Page",
-          description_1: "Ideal para campanhas",
-          valor: `1.200,00`,
-          description_2: "*Pagamento único.",
+          categorie: "Pro Chatbot",
+          description_1: "Site institucional com chatbot integrado",
+          description_2: "Mais páginas, mais presença online, mais conversão.",
+          description_3:
+            "🏢 Ideal para empresas que querem agilidade no atendimento e site completo.",
+          valor: `1.800,00`,
+          description_4: "*Pagamento único.",
           style_classification: "hidden",
           style_description: "20px 20px",
+          list_1: `Site com aprox. 5 páginas (Home, Sobre, Serviços, Contato, etc.)`,
+          list_2: `com perguntas frequentes e direcionamento para contato`,
         },
         {
           id: 3,
           classification: "Popular",
-          categorie: "Landing Page",
-          description_1: "Ideal para campanhas",
-          valor: `1.200,00`,
-          description_2: "*Pagamento único.",
+          categorie: "Business Chatbot",
+          description_1:
+            "Loja virtual ou página de vendas com chatbot vendedor integrado",
+          description_2:
+            "Venda com automação total: o chatbot orienta, responde e direciona vendas.",
+          description_3:
+            "Para quem quer vender produtos ou serviços de forma automatizada.",
+          valor: `3.000,00`,
+          description_4: "*Pagamento único.",
           style_classification: "hidden",
           style_description: "20px 20px",
+          list_1: `Loja com catálogo, pagamentos, painel admin`,
+          list_2: `Chatbot com perguntas frequentes e direcionamento de compra`,
+          list_3: `Integrações com PIX, boleto e cartão`,
         },
       ],
       id: 2,
@@ -198,14 +219,64 @@ export const PlansPrice = () => {
                         style={{ borderRadius: content.style_description }}
                       >
                         <div>
-                          <h4>{content.categorie}</h4>
-                          <p>{content.description_1}</p>
+                          <span>{content.categorie}</span>
+                          <h4>{content.description_1}</h4>
+                          <p>{content.description_2}</p>
+                          <p>{content.description_3}</p>
                         </div>
                         <div>
                           <p>
                             R$ <span>{content.valor}</span>
                           </p>
-                          <span>{content.description_2}</span>
+                          <span>{content.description_4}</span>
+                        </div>
+                        <div>
+                          <ul>
+                            {content.list_1 && (
+                              <li>
+                                {" "}
+                                <Icon
+                                  path={mdiMinusThick}
+                                  size={0.7}
+                                  color="#1e90ff"
+                                ></Icon>
+                                {content.list_1}
+                              </li>
+                            )}
+                            {content.list_2 && (
+                              <li>
+                                {" "}
+                                <Icon
+                                  path={mdiMinusThick}
+                                  size={0.7}
+                                  color="#1e90ff"
+                                ></Icon>
+                                {content.list_2}
+                              </li>
+                            )}
+                            {content.list_3 && (
+                              <li>
+                                {" "}
+                                <Icon
+                                  path={mdiMinusThick}
+                                  size={0.7}
+                                  color="#1e90ff"
+                                ></Icon>
+                                {content.list_3}
+                              </li>
+                            )}
+                            {content.list_4 && (
+                              <li>
+                                {" "}
+                                <Icon
+                                  path={mdiMinusThick}
+                                  size={0.7}
+                                  color="#1e90ff"
+                                ></Icon>
+                                {content.list_4}
+                              </li>
+                            )}
+                          </ul>
                         </div>
                         <div>
                           <div className="links">
